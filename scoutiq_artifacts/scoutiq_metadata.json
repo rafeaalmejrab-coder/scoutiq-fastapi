@@ -1,0 +1,36 @@
+{
+  "best_model_name": "XGBoost",
+  "test_metrics": {
+    "model": "XGBoost",
+    "test_accuracy": 0.5018016180569719,
+    "test_macro_f1": 0.38141132299128094,
+    "test_weighted_f1": 0.4277238180137836,
+    "test_precision_macro": 0.44591529723855355,
+    "test_recall_macro": 0.43616502871908586,
+    "test_log_loss": 1.0036694789820402
+  },
+  "data_path": "/kaggle/input/datasets/rafeaalmejrab2025/club-football-match-data-2000-2025/Matches.csv",
+  "date_min": "2000-07-28 00:00:00",
+  "date_max": "2025-06-01 00:00:00",
+  "classes": [
+    "A",
+    "D",
+    "H"
+  ],
+  "detected_columns": {
+    "date_col": "matchdate",
+    "home_team_col": "hometeam",
+    "away_team_col": "awayteam",
+    "home_score_col": "fthome",
+    "away_score_col": "ftaway",
+    "league_col": "division",
+    "season_col": null,
+    "country_col": null,
+    "neutral_col": null,
+    "home_elo_col": "homeelo",
+    "away_elo_col": "awayelo",
+    "home_odds_col": "oddhome",
+    "draw_odds_col": "odddraw",
+    "away_odds_col": "oddaway"
+  }
+}
